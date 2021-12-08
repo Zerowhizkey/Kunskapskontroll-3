@@ -2,12 +2,16 @@ body {
   background-color: rgb(127, 255, 212);
 }
 
+div {
+  background-color: #dbeb89;
+  }
+
 div:hover {
   background-color: rgba(0, 128, 0, 0.2);
 }
 
 .grid {
-  background-color: #dbeb89;
+  background-color: black;
 }
 
 .player-one {

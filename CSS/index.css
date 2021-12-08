@@ -1,3 +1,7 @@
+div {
+  border-radius: 40px;
+}
+
 div:hover {
   border-radius: 20px;
 }
