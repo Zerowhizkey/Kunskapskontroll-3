@@ -1,0 +1,9 @@
+h3 {
+  font-size: 2rem;
+}
+
+@media (min-width: 600px) {
+  h3 {
+    font-size: 3rem;
+  }
+}

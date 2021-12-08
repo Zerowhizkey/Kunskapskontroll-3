@@ -1,25 +1,6 @@
-/* .grid {
-    border: 1px solid;
-    height: 120px;
-    width: 140px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .grid div {
-    height: 20px;
-    width: 20px;
-  }
-  
-  .player-one {
-    background-color: red;
-    border-radius: 10px;
-  }
-  
-  .player-two {
-    background-color: blue;
-    border-radius: 10px;
-  } */
+div:hover {
+  border-radius: 20px;
+}
 
 .grid {
   border: 1px solid;
@@ -27,7 +8,6 @@
   width: 280px;
   display: flex;
   flex-wrap: wrap;
-  background-color: #DBEB89;
 }
 
 .grid div {
@@ -36,12 +16,10 @@
 }
 
 .player-one {
-  background-color: #1113a7ab;
   border-radius: 20px;
 }
 
 .player-two {
-  background-color: #6C7F21;
   border-radius: 20px;
 }
 
@@ -55,38 +33,24 @@
   justify-content: center;
 }
 
-body {
-  background-color: rgb(127, 255, 212);
-}
-
-div:hover {
-  border-radius: 20px;
-  background-color: rgba(0, 128, 0, 0.2);
-}
-
-h3 {
-  font-size: 3rem;
-}
-
-
 .hide {
   display: none;
 }
 
 @media (min-width: 600px) {
- 
   .grid {
     height: 480px;
     width: 560px;
-   }
+  }
 
-   .grid div {
+  .grid div {
     height: 80px;
     width: 80px;
   }
 
-  .player-one, .player-two, div:hover {
+  .player-one,
+  .player-two,
+  div:hover {
     border-radius: 40px;
-
   }
 }
