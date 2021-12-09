@@ -2,6 +2,7 @@ const squares = document.querySelectorAll(".grid div");
 const result = document.querySelector("#result");
 const displayCurrentPlayer = document.querySelector("#current-player");
 let currentPlayer = 1;
+const deleteGrid = document.querySelector(".grid");
 
 const winningArrays = [
     [0, 1, 2, 3],

@@ -11,8 +11,7 @@ function checkBoard() {
             square3.classList.contains("player-one") &&
             square4.classList.contains("player-one")) {
             result.innerText = "Player One Wins!";
-            
-
+            deleteGrid.classList.remove("grid");
         }
 
         if (
@@ -21,7 +20,7 @@ function checkBoard() {
             square3.classList.contains("player-two") &&
             square4.classList.contains("player-two")) {
             result.innerText = "Player Two Wins!";
-            
+            deleteGrid.classList.remove("grid");
         }
     }
 }

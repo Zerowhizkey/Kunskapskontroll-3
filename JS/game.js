@@ -17,9 +17,8 @@ for (let i = 0; i < squares.length; i++) {
             alert("cant go here");
         }
         checkBoard();
-     }
- }
+    }
+}
 
 
 
-       
